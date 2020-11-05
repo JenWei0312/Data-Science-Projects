@@ -1,0 +1,110 @@
+INFO:root:Data processing started
+INFO:root:Data processing started
+INFO:root:This is an error message
+INFO:root:Data processing started
+INFO:root:This is an error message
+INFO:root:Data processing started
+INFO:root:Data processing started
+INFO:root:error
+INFO:root:Data processing started
+INFO:root:error
+INFO:root:Data processing started
+INFO:root:Data read from ALTAML_HipFractures July 17.csv
+INFO:root:Dropped nan
+INFO:root:Labels encoded
+INFO:root:Features removed: ['aeUnexpectedReturnToOR', 'aeSuperficialInfection', 'aeDeepInfection', 'aeIntraOpFracture', 'aePostOpFracture', 'aeMechanicalComplication', 'aeDislocation', 'aeCVA', 'aeMI', 'aePE', 'aeDVT', 'aePneumonia', 'aeGIBleed', 'aeIleus', 'aeBleeding', 'aeOther', 'aeUTI', 'aeDementia', 'aeDelirium', 'aePressureUlcer', 'aeARF', 'aeMedicalEventCount', 'aeMechanicalEventCount', 'aeCareRelatedEventCount', 'aeDeathIP', 'aeDeathEpisode', 'admitCategoryShortDesc', 'entryCodeShortDesc', 'admitByAmbulanceShortDesc', 'institutionTypeShortDesc', 'institutionTypeFromShortDesc', 'institutionTypeToShortDesc', 'dispositionShortDesc', 'cmgShortDesc', 'mccShortDesc', 'mainPatientServiceShortDesc', 'mostRespDxShortDesc', 'procedureTypeShortDesc', 'episodeDispositionShortDesc', 'episodeEdVisit30', 'episodeEdVisit60', 'episodeEdVisit90', 'ipStayId', 'patientId', 'institutionId', 'institutionIdFrom', 'institutionIdTo', 'mostRespDoctorId', 'episodeStartInstId', 'episodeInstToId', 'postalCode', 'cmg', 'riw', 'mccCode', 'expectedLOS', 'transferLos', 'transfer', 'transferIpStayId', 'dischargeDateTime', 'dischargeFiscalYearEnd', 'dischargeFiscalQuarter', 'dischargeFiscalMonth', 'dispositionCode', 'dispositionShortDesc', 'alcDays', 'subacuteDays', 'acuteDays', 'episodeDispositionShortDesc', 'losEpisode', 'episodeEndDateTime', 'episodeInstToId', 'surgeryCount', 'procedureCount', 'aeDeathIP', 'aeDeathEpisode', 'institutionTypeIdTo', 'episode_hours', 'losAcute', 'adminTOdischarge_hours', 'riw', 'expectedLOS', 'transfer', 'transferIpStayId', 'transferLos', 'losAcute', 'episodeEdVisit30', 'episodeEdVisit60', 'episodeEdVisit90', 'aeUnexpectedReturnToOR', 'aeIntraOpFracture', 'aePostOpFracture', 'aeMechanicalComplication', 'aeDislocation', 'aeCVA', 'aeMI', 'aePE', 'aeDVT', 'aePneumonia', 'aeGIBleed', 'aeIleus', 'aeBleeding', 'aeOther', 'aeUTI', 'aeDementia', 'aeDelirium', 'aePressureUlcer', 'aeARF', 'aeMedicalEventCount', 'aeMechanicalEventCount', 'aeCareRelatedEventCount', 'adminTOdischarge_hours', 'episode_hours', 'admitDateTime', 'dischargeDateTime', 'episodeStartDateTime', 'episodeEndDateTime']
+INFO:root:"['transferLos'] not found in axis"
+INFO:root:"['transferIpStayId'] not found in axis"
+INFO:root:"['dispositionShortDesc'] not found in axis"
+INFO:root:"['episodeDispositionShortDesc'] not found in axis"
+INFO:root:"['episodeInstToId'] not found in axis"
+INFO:root:"['aeDeathIP'] not found in axis"
+INFO:root:"['aeDeathEpisode'] not found in axis"
+INFO:root:"['riw'] not found in axis"
+INFO:root:"['expectedLOS'] not found in axis"
+INFO:root:"['transfer'] not found in axis"
+INFO:root:"['transferIpStayId'] not found in axis"
+INFO:root:"['transferLos'] not found in axis"
+INFO:root:"['losAcute'] not found in axis"
+INFO:root:"['episodeEdVisit30'] not found in axis"
+INFO:root:"['episodeEdVisit60'] not found in axis"
+INFO:root:"['episodeEdVisit90'] not found in axis"
+INFO:root:"['aeUnexpectedReturnToOR'] not found in axis"
+INFO:root:"['aeIntraOpFracture'] not found in axis"
+INFO:root:"['aePostOpFracture'] not found in axis"
+INFO:root:"['aeMechanicalComplication'] not found in axis"
+INFO:root:"['aeDislocation'] not found in axis"
+INFO:root:"['aeCVA'] not found in axis"
+INFO:root:"['aeMI'] not found in axis"
+INFO:root:"['aePE'] not found in axis"
+INFO:root:"['aeDVT'] not found in axis"
+INFO:root:"['aePneumonia'] not found in axis"
+INFO:root:"['aeGIBleed'] not found in axis"
+INFO:root:"['aeIleus'] not found in axis"
+INFO:root:"['aeBleeding'] not found in axis"
+INFO:root:"['aeOther'] not found in axis"
+INFO:root:"['aeUTI'] not found in axis"
+INFO:root:"['aeDementia'] not found in axis"
+INFO:root:"['aeDelirium'] not found in axis"
+INFO:root:"['aePressureUlcer'] not found in axis"
+INFO:root:"['aeARF'] not found in axis"
+INFO:root:"['aeMedicalEventCount'] not found in axis"
+INFO:root:"['aeMechanicalEventCount'] not found in axis"
+INFO:root:"['aeCareRelatedEventCount'] not found in axis"
+INFO:root:"['adminTOdischarge_hours'] not found in axis"
+INFO:root:"['episode_hours'] not found in axis"
+INFO:root:"['dischargeDateTime'] not found in axis"
+INFO:root:"['episodeEndDateTime'] not found in axis"
+INFO:root:Data processing started
+INFO:root:Data read from data/ALTAML_HipFractures July 17.csv
+INFO:root:Dropped nan
+INFO:root:Labels encoded
+INFO:root:Features removed: ['aeUnexpectedReturnToOR', 'aeSuperficialInfection', 'aeDeepInfection', 'aeIntraOpFracture', 'aePostOpFracture', 'aeMechanicalComplication', 'aeDislocation', 'aeCVA', 'aeMI', 'aePE', 'aeDVT', 'aePneumonia', 'aeGIBleed', 'aeIleus', 'aeBleeding', 'aeOther', 'aeUTI', 'aeDementia', 'aeDelirium', 'aePressureUlcer', 'aeARF', 'aeMedicalEventCount', 'aeMechanicalEventCount', 'aeCareRelatedEventCount', 'aeDeathIP', 'aeDeathEpisode', 'admitCategoryShortDesc', 'entryCodeShortDesc', 'admitByAmbulanceShortDesc', 'institutionTypeShortDesc', 'institutionTypeFromShortDesc', 'institutionTypeToShortDesc', 'dispositionShortDesc', 'cmgShortDesc', 'mccShortDesc', 'mainPatientServiceShortDesc', 'mostRespDxShortDesc', 'procedureTypeShortDesc', 'episodeDispositionShortDesc', 'episodeEdVisit30', 'episodeEdVisit60', 'episodeEdVisit90', 'ipStayId', 'patientId', 'institutionId', 'institutionIdFrom', 'institutionIdTo', 'mostRespDoctorId', 'episodeStartInstId', 'episodeInstToId', 'postalCode', 'cmg', 'riw', 'mccCode', 'expectedLOS', 'transferLos', 'transfer', 'transferIpStayId', 'dischargeDateTime', 'dischargeFiscalYearEnd', 'dischargeFiscalQuarter', 'dischargeFiscalMonth', 'dispositionCode', 'dispositionShortDesc', 'alcDays', 'subacuteDays', 'acuteDays', 'episodeDispositionShortDesc', 'losEpisode', 'episodeEndDateTime', 'episodeInstToId', 'surgeryCount', 'procedureCount', 'aeDeathIP', 'aeDeathEpisode', 'institutionTypeIdTo', 'episode_hours', 'losAcute', 'adminTOdischarge_hours', 'riw', 'expectedLOS', 'transfer', 'transferIpStayId', 'transferLos', 'losAcute', 'episodeEdVisit30', 'episodeEdVisit60', 'episodeEdVisit90', 'aeUnexpectedReturnToOR', 'aeIntraOpFracture', 'aePostOpFracture', 'aeMechanicalComplication', 'aeDislocation', 'aeCVA', 'aeMI', 'aePE', 'aeDVT', 'aePneumonia', 'aeGIBleed', 'aeIleus', 'aeBleeding', 'aeOther', 'aeUTI', 'aeDementia', 'aeDelirium', 'aePressureUlcer', 'aeARF', 'aeMedicalEventCount', 'aeMechanicalEventCount', 'aeCareRelatedEventCount', 'adminTOdischarge_hours', 'episode_hours', 'admitDateTime', 'dischargeDateTime', 'episodeStartDateTime', 'episodeEndDateTime']
+INFO:root:"['transferLos'] not found in axis"
+INFO:root:"['transferIpStayId'] not found in axis"
+INFO:root:"['dispositionShortDesc'] not found in axis"
+INFO:root:"['episodeDispositionShortDesc'] not found in axis"
+INFO:root:"['episodeInstToId'] not found in axis"
+INFO:root:"['aeDeathIP'] not found in axis"
+INFO:root:"['aeDeathEpisode'] not found in axis"
+INFO:root:"['riw'] not found in axis"
+INFO:root:"['expectedLOS'] not found in axis"
+INFO:root:"['transfer'] not found in axis"
+INFO:root:"['transferIpStayId'] not found in axis"
+INFO:root:"['transferLos'] not found in axis"
+INFO:root:"['losAcute'] not found in axis"
+INFO:root:"['episodeEdVisit30'] not found in axis"
+INFO:root:"['episodeEdVisit60'] not found in axis"
+INFO:root:"['episodeEdVisit90'] not found in axis"
+INFO:root:"['aeUnexpectedReturnToOR'] not found in axis"
+INFO:root:"['aeIntraOpFracture'] not found in axis"
+INFO:root:"['aePostOpFracture'] not found in axis"
+INFO:root:"['aeMechanicalComplication'] not found in axis"
+INFO:root:"['aeDislocation'] not found in axis"
+INFO:root:"['aeCVA'] not found in axis"
+INFO:root:"['aeMI'] not found in axis"
+INFO:root:"['aePE'] not found in axis"
+INFO:root:"['aeDVT'] not found in axis"
+INFO:root:"['aePneumonia'] not found in axis"
+INFO:root:"['aeGIBleed'] not found in axis"
+INFO:root:"['aeIleus'] not found in axis"
+INFO:root:"['aeBleeding'] not found in axis"
+INFO:root:"['aeOther'] not found in axis"
+INFO:root:"['aeUTI'] not found in axis"
+INFO:root:"['aeDementia'] not found in axis"
+INFO:root:"['aeDelirium'] not found in axis"
+INFO:root:"['aePressureUlcer'] not found in axis"
+INFO:root:"['aeARF'] not found in axis"
+INFO:root:"['aeMedicalEventCount'] not found in axis"
+INFO:root:"['aeMechanicalEventCount'] not found in axis"
+INFO:root:"['aeCareRelatedEventCount'] not found in axis"
+INFO:root:"['adminTOdischarge_hours'] not found in axis"
+INFO:root:"['episode_hours'] not found in axis"
+INFO:root:"['dischargeDateTime'] not found in axis"
+INFO:root:"['episodeEndDateTime'] not found in axis"
+INFO:root:Data shape after cleaning: (11126, 39)
+INFO:root:Cleaned data saved at data/cleaned_data.p
+INFO:root:Feature encoding started
+INFO:root:Feature encoding Ended
+INFO:root:Data shape after encoding: (11126, 103)
+INFO:root:File written at data/encoded_data.p
